@@ -1,0 +1,64 @@
+.autocomplete {
+  position: relative;
+}
+
+.autocomplete-results {
+  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+  background: #fff;
+  z-index: 5;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  width: 100%;
+}
+
+.autocomplete-result {
+  background: fff;
+  color: #000;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 0 15px;
+  line-height: 48px;
+  height: 48px;
+  transition: background .15s linear;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.autocomplete-result.active {
+  background: rgb(238,238,238);
+  cursor: pointer;
+}
+
+.search-progress {
+  height: 2px;
+  position: absolute;
+  right: 0;
+  top: 45px;
+  width: 100%;
+}
+.search-icon {
+  color: #aaa;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: 24px;
+}
+
+.inverse {
+  margin-top: -15px;
+}
+.inverse .textfield__input {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .autocomplete-results {
+    max-height: auto;
+  }
+}

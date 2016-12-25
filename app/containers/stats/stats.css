@@ -1,0 +1,114 @@
+.autocomplete-container {
+  width: 400px;
+}
+
+.progress {
+  vertical-align: middle;
+  color: rgba(255,255,255,.6);
+  top: 75px;
+  position: absolute;
+  right: 50px;
+  text-align: right;
+  z-index: 100;
+}
+.mdl-spinner {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.mdl-layout-icon {
+  left: 20px;
+  top: 10px;
+}
+.mdl-layout-icon a {
+  color: #fff;
+}
+.mdl-layout-icon > a > i {
+  font-size: 28px;
+}
+
+.info-container {
+  padding: 0 50px;
+}
+.clearfix {
+  clear: both;
+}
+
+.mdl-grid {
+  margin: 20px -8px;
+  padding: 0;
+}
+
+.movie-title {
+  float: left;
+  margin: 30px 0 10px;
+}
+.movie-year {
+  color: #555;
+  float: left;
+  margin: 43px 0 0 20px;
+}
+.movie-poster {
+  max-width: 100%;
+}
+
+dl {
+  margin: 0;
+}
+dt {
+  color: #f44336;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+dd {
+  margin: 0 0 10px;
+}
+
+.hint {
+  color: #555;
+  font-size: 12px;
+}
+
+.peers-container {
+  padding: 30px 50px;
+}
+.mdl-data-table {
+  width: 100%;
+}
+.flag {
+  margin-right: 5px;
+}
+
+.map-container {
+  padding: 30px 50px;
+}
+.map-container > p {
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#map {
+  height: 450px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .progress {
+    top: 65px;
+  }
+  .progress > span {
+    display: none;
+  }
+
+  .autocomplete-container {
+    width: 100%;
+  }
+  #map {
+    height: 300px;
+  }
+
+  .peers-container {
+    overflow-x: auto;
+  }
+}
