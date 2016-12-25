@@ -2,6 +2,8 @@
 
 This is a demo project built in scope of Angular Attack hackathon.
 
+Screencast is available [here](https://www.youtube.com/watch?v=townyeg6JJI).
+
 ## How it works
 
 The app shows real movie statistics based on downloads using BitTorrent protocol.
